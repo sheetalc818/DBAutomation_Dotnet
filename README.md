@@ -1,6 +1,7 @@
 # DBAutomation_Dotnet
 
 1)Create MSTest project
+
 2)Add following packages from Nuget Manager
    Microsoft.NET.Test.Sdk
    Microsoft.VisualStudio.TestPlatform
@@ -9,7 +10,9 @@
    Selenium.WebDriver
    Selenium.WebDriver.ChromeDriver
    Syste.Data.SqlClient
+   
 3)Add testcases as written in files 
+
 4)Execute using Test Explorer 
 
 #Reference
