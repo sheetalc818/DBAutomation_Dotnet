@@ -2,7 +2,7 @@
 
 1)Create MSTest project
 
-2)Add following packages from Nuget Manager
+2)Add following packages from Nuget Manager :
    Microsoft.NET.Test.Sdk
    Microsoft.VisualStudio.TestPlatform
    MSTest.TestAdapter
