@@ -26,18 +26,8 @@ namespace DBAutomation
         public void RetrivedTheData_FromDatabase()
         {
             conn.Open();
-            SqlCommand selectCommand = new SqlCommand("SELECT * FROM DBAutomation WHERE FirstColumn = @0", conn);
-            selectCommand.Parameters.Add(new SqlParameter("0", 8));
-
-            using (SqlDataReader reader = selectCommand.ExecuteReader())
-            {
-                System.Diagnostics.Debug.WriteLine("FirstColumn\t\tSecond Column\t\tThird Column\t\tFourth Column\t");
-                while (reader.Read())
-                {
-                    System.Diagnostics.Debug.WriteLine(String.Format("{0} \t | {1} \t | {2} \t | {3}",
-                                                       reader[0], reader[1], reader[2], reader[3]));
-                }
-            }
+            int totalRows = Utility.Utility.readData(conn);
+            Assert.AreEqual(5, totalRows);
             conn.Close();
         }
 
@@ -45,15 +35,9 @@ namespace DBAutomation
         public void InsertRecord_InTo_Database()
         {
             conn.Open();
-            SqlCommand insertCommand = new SqlCommand("INSERT INTO DBAutomation (FirstColumn, SecondColumn, ThirdColumn, FourthColumn) VALUES (@0, @1, @2, @3)", conn);                    
-               
-                insertCommand.Parameters.Add(new SqlParameter("0","8"));
-                insertCommand.Parameters.Add(new SqlParameter("1", "Evening Time"));
-                insertCommand.Parameters.Add(new SqlParameter("2", DateTime.Now));
-                insertCommand.Parameters.Add(new SqlParameter("3", "6"));
-
-            int rows = insertCommand.ExecuteNonQuery();
-            Assert.AreEqual(1, rows);
+            int noOfRowsAdded= Utility.Utility.insertData_intoDB(conn);
+            Assert.AreEqual(1, noOfRowsAdded);
+            Utility.Utility.readData(conn);
             conn.Close();
         }
     }
