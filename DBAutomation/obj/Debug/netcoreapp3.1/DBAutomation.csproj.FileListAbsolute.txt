@@ -23,6 +23,7 @@ C:\Users\dell\source\repos\DBAutomation\DBAutomation\bin\Debug\netcoreapp3.1\Mic
 C:\Users\dell\source\repos\DBAutomation\DBAutomation\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\Users\dell\source\repos\DBAutomation\DBAutomation\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\dell\source\repos\DBAutomation\DBAutomation\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\dell\source\repos\DBAutomation\DBAutomation\bin\Debug\netcoreapp3.1\WebDriver.dll
 C:\Users\dell\source\repos\DBAutomation\DBAutomation\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
 C:\Users\dell\source\repos\DBAutomation\DBAutomation\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Users\dell\source\repos\DBAutomation\DBAutomation\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
@@ -102,5 +103,4 @@ C:\Users\dell\source\repos\DBAutomation\DBAutomation\obj\Debug\netcoreapp3.1\DBA
 C:\Users\dell\source\repos\DBAutomation\DBAutomation\obj\Debug\netcoreapp3.1\DBAutomation.dll
 C:\Users\dell\source\repos\DBAutomation\DBAutomation\obj\Debug\netcoreapp3.1\DBAutomation.pdb
 C:\Users\dell\source\repos\DBAutomation\DBAutomation\obj\Debug\netcoreapp3.1\DBAutomation.genruntimeconfig.cache
-C:\Users\dell\source\repos\DBAutomation\DBAutomation\bin\Debug\netcoreapp3.1\WebDriver.dll
 C:\Users\dell\source\repos\DBAutomation\DBAutomation\obj\Debug\netcoreapp3.1\DBAutomation.csproj.AssemblyReference.cache
